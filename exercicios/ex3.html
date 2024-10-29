@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Mensagem do Dia</title>
+</head>
+<body>
+
+<script>
+    // Obtem o dia da semana (0 = Domingo, 6 = Sábado)
+    var diaSemana = new Date().getDay();
+
+    // Usa o switch para verificar o dia e escrever a mensagem correta
+    switch (diaSemana) {
+        case 0: // Domingo
+        case 6: // Sábado
+            document.write("<h1>É fim de semana</h1>");
+            break;
+        default: // Outros dias da semana (Segunda a Sexta)
+            document.write("<h1>Bom Trabalho!</h1>");
