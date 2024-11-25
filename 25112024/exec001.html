@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMULÁRIO PRINCIPAL</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Informação Pessoal:</legend>
+                <br>
+                <label for="nome_id">Nome  </label>
+                <input type="text" name="nome" size="35" value="">
+                <br><br>
+                <br>
+                <label for="nome_id">apelido </label>
+                <input type="text" name="apelido" size="35" value="">
+                <br><br>
+                <label for="nome_id">idade </label>
+                <input type="text" name="idade" size="35" value="">
+                <br><br>
+                
+                <label for="nome_id">Email: </label>
+                <input type="text" name="email" size="25" value="">
+                <br><br>
+                <label for="localidade_id">Localidade: </label>
+                <input id="localidade_id" name="localidade" type="text" list="localidades">
+                <datalist id="localidades">
+                    <option value="Lisboa">Lisboa</option>
+                    <option value="Odivelas">Odivelas</option>
+                    <option value="Amadora">Amadora</option>
+                    <option value="Oeiras">Oeiras</option>
+                    <option value="Alverca">Alverca</option>
+                </datalist><br><br>
+                <label for="tel_id">Telefone/Telemovél: </label>
+                <input id="tel_id" type="tel" name="telefone" size="30" placeholder="Nº de telefone/telemovel"><br><br>
+                <label for="naturalidade_id">Naturalidade</label>
+                <select id="naturalidade_id" name="naturalidade">
+                    <option value="PT">Portugal</option>
+                    <option value="FR">Angola</option>
+                    <option value="BR">Brasil</option>
+                    <option value="FR">França</option>
+                    <option value="Outro">Outra</option>
+                    
+                </select><br><br>
+                <br><br>
+                <label for="nome_id">data de nascimento </label>
+                <input type="text" name="data de nascimento" size="35" value="">
+
+
+                <label for="nome_id">password </label>
+                <input type="text" name="password" size="35" value="">
+                <br><br>
+            </fieldset><br><br>
+            <input type="submit" value="enviar">
+        </form>
+    </body>
+</html>
